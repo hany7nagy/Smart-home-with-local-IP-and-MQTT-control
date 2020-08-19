@@ -24,8 +24,8 @@ void setup() {
   MQTTclient.setServer(mqttServer, mqttPort);
   MQTTclient.setCallback(callback);
   connectMQTT();
-  MQTTclient.publish("amrmahmoudfcb11@gmail.com_11SmartHome2", "hello"); //Topic name
-  MQTTclient.subscribe("amrmahmoudfcb11@gmail.com_11SmartHome2");
+  MQTTclient.publish("enter your topic name here", "hello"); //Topic name
+  MQTTclient.subscribe("enter your topic name here");
 
   server.begin();
   
